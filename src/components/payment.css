@@ -1,0 +1,22 @@
+.offerBtn {
+    font-size: 20px;
+    border: dotted  aqua;
+    background-color: #2EDFFF;
+    margin: 1rem;
+}
+.paymentCard {
+    width: 1086px;
+    padding:4rem 4rem 4rem 18rem;
+    margin:7rem 2rem 0 12rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .paymentCard {
+        width: 1000px;
+        padding:4rem 4rem 4rem 18rem;
+        /* margin:7rem 2rem 0 12rem; */
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+        margin-top: 20rem;
+    }
+}

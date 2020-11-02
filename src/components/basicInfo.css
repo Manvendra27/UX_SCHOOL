@@ -1,0 +1,88 @@
+.logo {
+    margin: 1.5rem 1.5rem 0 1.5rem;
+}
+.getStart {
+    padding-left: 5rem;
+    font-family: 'Lato Bold 700';
+    padding-top: 8rem;    
+}
+.inputDetails {
+    padding-left: 5.5rem;
+}
+label {
+    color: #707070;
+}
+input , .courseSelect{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #707070;
+    width: 24rem;
+    
+  }
+  input:focus {
+    border-color: green
+  }
+  .nextBtn {
+      width: 15rem;
+      text-align: center;
+      display: block;
+      margin-left: 4rem;
+      background-color: black;
+      border-radius: .5rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+      .logoImg {
+          text-align: center;
+      }
+      .logo {
+          width: 102px;
+          height: 66px;
+      }
+      .getStart {
+        padding-left: 3rem ;
+        padding-top: 2rem;
+      }
+      .inputDetails {
+          padding-left: 3rem ;
+      }
+      input, .courseSelect {
+          width: 20rem;
+      }
+      .car {
+          margin-left: .5rem;
+      }
+      .caroselCard {
+          
+          margin: 0 2rem 0 1rem !important;
+          border-radius: 0rem!important;
+          box-shadow: none!important;
+          padding: .1rem;
+          width: 343px !important;
+          height: 294px !important
+          
+      }
+      .cardImg {
+          margin-left: 4rem !important;
+          width: 173px !important;
+          height: 191px !important;
+          
+      }
+      .cardBody {
+          height: 89px !important;
+          border-radius: 0rem!important;
+      }
+      .carousel-indicators {
+          margin: 0!important;
+      }
+      .cardC {
+          /* margin-top: 1rem!important; */
+          margin: 0!important;
+          border:1px !important;
+      }
+       .nextBtn {
+           margin-top: 1rem;
+           margin-left: 3rem;
+       }
+      
+  }
